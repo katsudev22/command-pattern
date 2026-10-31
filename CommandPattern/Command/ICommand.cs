@@ -5,4 +5,5 @@ namespace command_pattern.CommandPattern.Command;
 public interface ICommand
 {
     public void Execute(GameActor actor);
+    public void Undo(GameActor actor);
 }
